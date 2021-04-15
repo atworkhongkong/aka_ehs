@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     //return view('welcome');
-    return redirect('/ecs/programme');
+    return redirect('/hss/meal');
 });
 
 // Added by Roland for adding Fortify auth

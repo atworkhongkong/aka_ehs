@@ -43,69 +43,16 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">HSS</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <li><a class="dropdown-item" href="/hss/meal">膳食會員</a></li>
-                            <li><a class="dropdown-item" href="/hss/meal/create">新增膳食會員</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/hss/meal/edit">編輯膳食會員</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/hss/meal/delivery">飯線</a></li>
+                            <li><a class="dropdown-item" href="/hss/meal/delivery">飯線</a></li>
                             <li><a class="dropdown-item" href="/hss/delivery_route">送飯路線</a></li>
-                            <li><a class="dropdown-item" href="/hss/delivery_route/create">新增送飯路線</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/hss/delivery_route/edit/1">編輯送飯路線</a></li>
                             <li><a class="dropdown-item" href="/hss/care_worker">照顧員</a></li>
-                            <li><a class="dropdown-item" href="/hss/care_worker/create">新增照顧員</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/hss/care_worker/edit/1">編輯照顧員</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/hss/duty_roster">編更</a></li>
+                            <li><a class="dropdown-item" href="/hss/duty_roster">編更</a></li>
                             <li class="border-bottom"><a class="dropdown-item" href="/hss/case">個案</a></li>
                             <li><a class="dropdown-item" href="/hss/finance/fee">服務費</a></li>
                             <li><a class="dropdown-item" href="/hss/finance/income">收入記錄</a></li>
                             <li><a class="dropdown-item" href="/hss/finance/invoice">單據</a></li>
                             <li><a class="dropdown-item" href="/hss/finance/meal">飯餐</a></li>
                             <li><a class="dropdown-item" href="/hss/finance/service">收費總結表</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">ECS1</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="/ecs/programme">活動</a></li>
-                            <li><a class="dropdown-item" href="/ecs/programme_register/report">活動報名統計報告</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/programme_register/balance">活動埋數</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/invoice/A0000012">收據</a></li>
-                            <li><a class="dropdown-item" href="/ecs/meal_setting">膳食設定</a></li>
-                            <li><a class="dropdown-item" href="/ecs/meal">每週飯餸</a></li>
-                            <li><a class="dropdown-item" href="/ecs/order_meal">膳食預訂</a></li>
-                            <li><a class="dropdown-item" href="/ecs/order_meal/report">每週膳食統計報告</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/meal_ingredient">膳食庫存</a></li>
-                            <li><a class="dropdown-item" href="/ecs/volunteer">義工</a></li>
-                            <li><a class="dropdown-item" href="/ecs/volunteer_team">義工小組</a></li>
-                            <li><a class="dropdown-item" href="/ecs/volunteer_service">義工時數</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/volunteer_service/report">義工統計報告</a></li>
-                            <li><a class="dropdown-item" href="/ecs/carer">謢老者</a></li>
-                            <li><a class="dropdown-item" href="/ecs/carer_service">謢老者服務</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/carer_service/report">護老者統計報告</a></li>
-                            <li><a class="dropdown-item" href="/ecs/hidden_elderly">隱蔽長者</a></li>
-                            <li><a class="dropdown-item" href="/ecs/hidden_elderly/report">隱蔽長者統計報告</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">ECS2</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/tutor">導師</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/holiday">假期</a></li>
-                            <li><a class="dropdown-item" href="/ecs/product">貨品</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/purchase">購物</a></li>
-                            <li><a class="dropdown-item" href="/ecs/equipment">儀器</a></li>
-                            <li><a class="dropdown-item" href="/ecs/equipment_rental">租借儀器</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/equipment_rental/report">租借儀器統計報告</a></li>
-                            <li><a class="dropdown-item" href="/ecs/room">房間</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/room_booking">預約房間</a></li>
-                            <li><a class="dropdown-item" href="/ecs/dcss">智友醫社同行計劃</a></li>
-                            <li><a class="dropdown-item" href="/ecs/dcss_training">智友醫社訓練</a></li>
-                            <li><a class="dropdown-item" href="/ecs/dcss_training/report">智友醫社訓練統計</a></li>
-                            <!--<li><a class="dropdown-item" href="/ecs/dcss_staff">智友醫社同工</a></li>-->
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/dcss_staff_training">智友醫社同工訓練</a></li>
-                            <li class="border-bottom"><a class="dropdown-item" href="/ecs/vital_sign">生命表徵</a></li>
-                            <li><a class="dropdown-item" href="/ecs/report/activity_income">活動收費總結表</a></li>
-                            <li><a class="dropdown-item" href="/ecs/report/daily_income">每日收入</a></li>
-                            <li><a class="dropdown-item" href="/ecs/report/invoice">單據</a></li>
-                            <li><a class="dropdown-item" href="/ecs/report/transaction">收費總結表</a></li>
                         </ul>
                     </li>
                 </ul>
